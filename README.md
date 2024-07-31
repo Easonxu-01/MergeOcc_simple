@@ -18,11 +18,18 @@ To this end, this paper proposes UniLiDAR, an occupancy prediction pipeline that
 
 ![framework](./framework.png)
 
-# Acknowledgement
+# Primary Results
+
+![IoUDrop_d](./IoUDrop_d.png)
+
+
+
+#  Acknowledgement
 
 Many thanks to these excellent projects:
 - [OpenOcuupancy](https://github.com/JeffWang987/OpenOccupancy)
 - [SurroundOcc](https://github.com/weiyithu/SurroundOcc)
 - [MonoScene](https://github.com/astra-vision/MonoScene)
 - [Unidet](https://github.com/xingyizhou/UniDet)
+
 # unilidar_simple
