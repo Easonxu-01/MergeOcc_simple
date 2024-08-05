@@ -3,7 +3,7 @@
 **1. Download nuScenes V1.0 full dataset data [HERE](https://www.nuscenes.org/download). Folder structure:**
 
 ```
-unilidar_simple
+mergeocc_simple
 ├── data/
 │   ├── nuscenes/
 │   │   ├── maps/
@@ -17,7 +17,7 @@ unilidar_simple
 **2. Download the generated [train](https://github.com/JeffWang987/OpenOccupancy/releases/tag/train_pkl)/[val](https://github.com/JeffWang987/OpenOccupancy/releases/tag/val_pkl) pickle files and put them in data. Folder structure:**
 
 ```
-unilidar_simple
+mergeocc_simple
 ├── data/
 │   ├── nuscenes/
 │   │   ├── maps/
@@ -36,7 +36,7 @@ python ./tools/gen_data/gen_depth_gt.py
 ```
 **Folder structure:**
 ```
-unilidar_simple
+mergeocc_simple
 ├── data/
 │   ├── nuscenes/
 │   ├── depth_gt/
@@ -57,7 +57,7 @@ mv nuScenes-Occupancy-v0.1 nuScenes-Occupancy
 **Folder structure:**
 
 ```
-unilidar_simple
+mergeocc_simple
 ├── data/
 │   ├── nuscenes/
 │   ├── depth_gt/
@@ -69,7 +69,7 @@ unilidar_simple
 **1. Download the semanticKITTI dataset [HERE](https://http://www.semantic-kitti.org/dataset.html), Folder structure:*
 
 ```
-unilidar_simple
+mergeocc_simple
 ├── data/
 │   ├── nuscenes/
 │   ├── depth_gt/
@@ -95,7 +95,7 @@ unilidar_simple
 **2. Download the generated [train](https://drive.google.com/file/d/1AlbseAbUkBrVjEZTbDbYcsA3l6LqqTEO/view?usp=drive_link)/[val](https://drive.google.com/file/d/1gF7rHdZqzcu2mwjzflKF5jcE-wOue0CI/view?usp=drive_link) /[test](https://drive.google.com/file/d/1InCnqx2oIKxIB9Kjb89RPcLood-a__2q/view?usp=drive_link) pickle files and put them in data. Folder structure:**
 
 ```
-unilidar_simple
+mergeocc_simple
 ├── data/
 │   ├── nuscenes/
 │   ├── depth_gt/
@@ -109,7 +109,7 @@ unilidar_simple
 **Folder structure:**
 
 ```
-unilidar_simple
+mergeocc_simple
 ├── data/
 │   ├── nuscenes/
 │   ├── depth_gt/

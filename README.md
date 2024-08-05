@@ -1,10 +1,14 @@
-# UniLiDAR: Bridge the domain gap among different LiDARs for continual learning
+# MergeOcc: Bridge the domain gap between different LiDARs for robust occupancy prediction
 
 # Abstract
 
-LiDAR-based 3D perception algorithms have evolved rapidly alongside the emergence of large datasets. Nonetheless, considerable performance degradation often ensues when models trained on a specific dataset are applied to other datasets or real-world scenarios with different LiDAR.  
-This paper aims to develop a unified model capable of handling different LiDARs, enabling continual learning across diverse LiDAR datasets and seamless deployment across heterogeneous platforms. We observe that the gaps among datasets primarily manifest in geometric disparities (such as variations in beams and point counts) and semantic inconsistencies (taxonomy conflicts). 
-To this end, this paper proposes UniLiDAR, an occupancy prediction pipeline that leverages geometric realignment and semantic label mapping to facilitate multiple datasets training and mitigate performance degradation during deployment on heterogeneous platforms. Moreover, our method can be easily combined with existing 3D perception models. The efficacy of the proposed approach in bridging LiDAR domain gaps is verified by comprehensive experiments on two prominent datasets: OpenOccupancy-nuScenes and SemanticKITTI. UniLiDAR elevates the mIoU of occupancy prediction by $\textbf{15.7\%}$ and $\textbf{12.5\%}$, respectively, compared to the model trained on the directly merged dataset. Moreover, it outperforms several SOTA methods trained on individual datasets. We expect our research to facilitate further study of 3D generalization, the code will be available soon.
+LiDAR-based 3D occupancy prediction algorithms have evolved rapidly alongside the emergence of large datasets. Nevertheless, considerable performance degradation often ensues when models trained on a specific dataset are applied to real-world scenarios with disparate LiDAR.  
+This research aims to develop a generalized model capable of handling different LiDARs simultaneously, bridging the domain gap to facilitate seamless deployment across heterogeneous platforms. We observe that the gaps among LiDAR datasets primarily manifest in geometric disparities (such as variations in beams and point counts) and semantic inconsistencies (scenario diversity and taxonomy conflicts). 
+To this end, this paper proposes MergeOcc, an occupancy prediction pipeline that employs geometric realignment and semantic label mapping to facilitate multiple datasets training (MDT) and mitigate cross-LiDAR issues. 
+The efficacy of MergeOcc is validated through comprehensive experiments on two prominent datasets: OpenOccupancy-nuScenes and SemanticKITTI.
+MergeOcc demonstrates extra robustness and outstanding performance simultaneously across both types of LiDARs, outperforming several SOTA multi-modality methods.
+Furthermore, while using identical model architecture and hyper-parameters, MergeOcc significantly surpasses the baseline owing to exposure to larger and more diverse data, which is unprecedented in the realm of 3D perception.
+We anticipate increased attention to the MDT paradigm.
 
 # Getting Started
 
@@ -31,5 +35,3 @@ Many thanks to these excellent projects:
 - [SurroundOcc](https://github.com/weiyithu/SurroundOcc)
 - [MonoScene](https://github.com/astra-vision/MonoScene)
 - [Unidet](https://github.com/xingyizhou/UniDet)
-
-# unilidar_simple
