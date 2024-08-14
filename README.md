@@ -2,13 +2,11 @@
 
 # Abstract
 
-LiDAR-based 3D occupancy prediction algorithms have evolved rapidly alongside the emergence of large datasets. Nevertheless, considerable performance degradation often ensues when models trained on a specific dataset are applied to real-world scenarios with disparate LiDAR.  
-This research aims to develop a generalized model capable of handling different LiDARs simultaneously, bridging the domain gap to facilitate seamless deployment across heterogeneous platforms. We observe that the gaps among LiDAR datasets primarily manifest in geometric disparities (such as variations in beams and point counts) and semantic inconsistencies (scenario diversity and taxonomy conflicts). 
-To this end, this paper proposes MergeOcc, an occupancy prediction pipeline that employs geometric realignment and semantic label mapping to facilitate multiple datasets training (MDT) and mitigate cross-LiDAR issues. 
-The efficacy of MergeOcc is validated through comprehensive experiments on two prominent datasets: OpenOccupancy-nuScenes and SemanticKITTI.
-MergeOcc demonstrates extra robustness and outstanding performance simultaneously across both types of LiDARs, outperforming several SOTA multi-modality methods.
-Furthermore, while using identical model architecture and hyper-parameters, MergeOcc significantly surpasses the baseline owing to exposure to larger and more diverse data, which is unprecedented in the realm of 3D perception.
-We anticipate increased attention to the MDT paradigm.
+LiDAR-based 3D occupancy prediction evolved rapidly alongside the emergence of large datasets. 
+Nevertheless, the potential of existing diverse datasets remains underutilized as they kick in individually. Models trained on a specific dataset often suffer considerable performance degradation when deployed to real-world scenarios or datasets involving disparate LiDARs.
+This paper aims to develop a generalized model called MergeOcc, to simultaneously handle different LiDARs by leveraging multiple datasets.
+The gaps among LiDAR datasets primarily manifest in geometric disparities and semantic inconsistencies. Thus, MergeOcc incorporates a novel model featuring a geometric realignment module and a semantic label mapping module to enable multiple datasets training (MDT). 
+The effectiveness of MergeOcc is validated through experiments on two prominent datasets for autonomous vehicles: OpenOccupancy-nuScenes and SemanticKITTI. The results demonstrate its enhanced robustness and remarkable performance across both types of LiDARs, outperforming several SOTA multi-modality methods. Notably, despite using an identical model architecture and hyper-parameter set, MergeOcc can significantly surpass the baseline due to its exposure to more diverse data.MergeOcc is considered the first cross-dataset 3D occupancy prediction pipeline that effectively bridges the domain gap for seamless deployment across heterogeneous platforms.
 
 # Getting Started
 
