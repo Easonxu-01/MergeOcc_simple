@@ -28,6 +28,8 @@ To the best of our knowledge, this work presents the first cross-dataset 3D occu
 
 ![IoUDrop_d](./IoUDrop_d.png)
 
+![radar](./radar.png)
+
 
 
 #  Acknowledgement
