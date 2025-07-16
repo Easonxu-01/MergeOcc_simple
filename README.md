@@ -1,5 +1,9 @@
 # MergeOcc: Bridge the domain gap between different LiDARs for robust occupancy prediction
 
+We provide a simplified version of the codebase for assessing the efficacy of MergeOcc. By strictly adhering to the guidelines provided in the Readme.md file, users can train a generalized occupancy prediction model MergeOcc-V, showcasing outstanding performance on both the SemanticKITTI dataset and the OpenOccupancy-nuScenes dataset.
+
+A more comprehensive version of the codebase will be released in the near future.
+
 # Abstract
 
 LiDAR-based 3D occupancy prediction algorithms evolved rapidly with the advent of large-scale datasets.  
